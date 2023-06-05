@@ -1,0 +1,319 @@
+@import './variable.scss';
+
+// Drawer SCSS
+.ant-drawer-content-wrapper {
+    width: 800px !important;
+}
+
+.ant-layout-sider{
+    flex: 0 0 200px;
+    max-width: 130px !important;
+    min-width: 130px !important;
+    width: 130px !important;
+    background: $gray-50 !important;
+}
+.ant-menu {
+    background:  none !important;
+}
+
+
+.product-font-primary {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.product-font-secondry {
+    font-size: 12px;
+    color: $gray;
+
+}
+
+.product-font-teritory {
+    font-size: 12px;
+    color: $black;
+    font-weight: 500;
+
+}
+
+
+
+// Flex SCSS
+.d-flex {
+    display: flex !important;
+    align-items: center;
+}
+
+.perfect-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto !important;
+}
+
+.mt-auto {
+    margin-top: auto !important;
+}
+
+// Adjustment SCSS
+.w-100 {
+    width: 100% !important;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-75 {
+    margin-bottom: 75px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-50{
+    margin-top: 50px !important;
+}
+
+
+// Top Header
+.main-logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: $blue;
+}
+header {
+    padding: 0 !important;
+    margin: 8px 16px;
+}
+
+.border-0 {
+    border: none !important;
+}
+
+.height-auto {
+    height: auto !important;
+}
+
+.filter-section {
+    border: solid 1px $boarder-line;
+    border-radius: 6px;
+    background: $white;
+
+}
+
+.filter-icon {
+    width: 40px;
+    height: 32px;
+    border-radius: 3px;
+    background: $gray;
+    color: $white;
+}
+
+.btn-blue {
+    background: $blue;
+    border: none !important;
+    color: $white;
+
+    :hover {
+        background: $blue;
+        border: none !important;
+        color: $white;
+    }
+
+}
+.btn-border-blue{
+    background: $blue !important;
+    border: none !important;
+    border-radius: 5px !important;
+    height: 90px !important;
+    width: 90px !important;
+    color: $white;
+    margin-top: 100px !important;
+    
+}
+.btn-border-blue:hover{
+    background: $blue !important;
+    border: none !important;
+    border-radius: 5px !important;
+    height: 90px !important;
+    width: 90px !important;
+    color: $white !important;
+    
+}
+.btn-border-white{
+    background: $white !important;
+    border: none !important;
+    border-radius: 5px !important;
+    height: 90px !important;
+    width: 90px !important;
+    color: $black;
+    margin-top: 20px !important;
+    
+}
+.btn-border-white:hover{
+    background: $white !important;
+    border: none !important;
+    border-radius: 5px !important;
+    height: 90px !important;
+    width: 90px !important;
+    color: $black !important;
+    
+}
+.box-gray{
+    background:$blue-25;
+    width: 500px;
+    height: 500px;
+}
+
+.btn-setting {
+    border: solid 1px $gray;
+    font-size: 15px !important;
+    height: 32px;
+    width: 32px;
+}
+.border-radius-0{
+    border-radius: unset !important;  
+}
+.border-uploader{
+    background-color: $blue-50;
+    border: 1px dashed $blue;
+    border-radius: 10px;
+    width: 160px;
+    height: 80px;
+}
+.ant-upload-select{
+    background-color: $blue-50;
+    border: none !important;
+    width: 135px !important;
+    height: auto !important;
+
+    
+}
+.anticon-printer{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: $white;
+    color: $blue;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+
+}
+.upload-text{
+    font-size: 12px;
+}
+.custom-box{
+    line-height: 1 !important;
+    text-align: center;
+    font-size: 12px;
+    background-color: $red;
+ 
+    border-radius: 10px;
+    width: 160px;
+    height: 65px;
+}
+
+// Top Action Component
+.ant-layout-header {
+    line-height: 0 !important;
+    height: auto !important;
+}
+.icon {
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.profile-icon {
+    background: purple;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+
+// Chips SCSS
+
+
+
+.ant-menu-item-selected{
+    background-color: $blue-50 !important;
+    color: $blue !important; 
+    border-left: solid 2px $blue;
+}
+.ant-menu-item:not(.ant-menu-item-selected):hover{
+background-color: $blue-50 !important;
+color: $blue !important;
+border-left: solid 2px $blue;
+border-radius: none !important;
+}
+.ant-menu-item {
+    border-radius: unset !important;
+}
+
+.bg-light{
+    background: whitesmoke !important;
+}
+.ant-layout {
+    background: $white !important;
+}
+.ant-layout-footer {
+    background: $white !important;
+}
+.ant-layout-sider-children{
+    border-inline-end: 1px solid rgba(5, 5, 5, 0.06);
+}
+.ant-layout-sider-trigger{
+    border-inline-end: 1px solid rgba(5, 5, 5, 0.06);
+}
+.ant-menu-item-only-child{
+    border-bottom:1px solid rgba(5, 5, 5, 0.06); ;
+}
